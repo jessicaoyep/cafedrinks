@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe Recipes! </title>
      <link rel = "stylesheet" href = "designTwo.css" />
+     <script src = "script.js" defer></script>
 </head>
 
 
@@ -27,15 +28,9 @@
      //Search bar 
         <body>
             <div class = "container">
-                <input id = "searchbar"
-                onkeyup = "search_drink()"
-                type = "text" name = "Search"
-                placeholder = "Find your drink!">
-
-                <ul id = 'list'>
-                    <li class = "drink"> Matcha </li>
-                    <li class = "drink"> Coffee </li>
-                </ul>
+                <form>
+                    <input type = "text" placeholder = "Enter a drink!">
+                    <button type = "submit"> Search </button>
+                </form>
             </div>
-            <script src = "./script.js"></script>
         </body>
