@@ -80,7 +80,7 @@ h1, h2, h3, p, ol{
     transform: translate(-50%, -50%);
     text-align: center;
     visibility: hidden;
-    padding: 10px;
+    padding: 20px;
 }
 
 .open-popup{
