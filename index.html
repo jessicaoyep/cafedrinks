@@ -3,7 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Page Title</title>
 </head>
 <body>
     <!-- Visible content goes here -->
+=======
+    <title>Cafe Recipes! </title>
+     <link rel = "stylesheet" href = "designTwo.css" />
+<<<<<<< HEAD
+     <script src = "script.js" defer></script>
+=======
+     <link rel = "stylesheet" href = "nav.css">
+>>>>>>> 7e24a1920fd294c456f00594f71f5818a1765048
+</head>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="matcha.html">Matcha Recipes</a>
+</nav>
+
+    <!-- Visible content goes here -->
+     //Title & description
+     <body>
+        <div class = "header">
+            <h1 class = "title">
+                Cafe Recipes!
+            </h1>
+            <p id = "description"> Interested in making your favorite recipes at home? 
+                Cafe Drinks provides you endless of recipes from others for
+                you to recreate!
+            </p>
+
+
+        </div>
+     </body>
+
+     //Search bar 
+        <body>
+            <div class = "container">
+                <form>
+                    <input type = "text" placeholder = "Enter a drink!" onchange = "openpage()">
+                    <button type = "submit"> Search </button>
+                    <script>
+                        function openpage(){
+                            var input = document.querySelector("input").value;
+                            if(input == "matcha"){
+                                window.open("matcha.html");
+                            }
+                        }
+                    </script>
+
+                </form>
+            </div>
+        </body>
+>>>>>>> 67b9899e50343bd4fc89f7b2d8fd3618801102e8
