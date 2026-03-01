@@ -1,0 +1,38 @@
+h1, p{
+  font-family: "Lora", serif;
+}
+
+/* Style for the header section */
+.header{
+    background-color: #8ba888;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+    h1, p{
+        color: white;
+        font-family: "Lora", serif;
+        text-align: center;
+    }
+
+}
+
+/* Style for the short recipe cards */
+.recipe-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #8ba888;
+    padding: 20px;
+    margin-right: 50%;
+
+    h2{
+        text-align: center;
+    }
+
+    h2, p{
+        color: white;
+        font-family: "Lora", serif;
+    }
+}
