@@ -91,7 +91,7 @@ img{
   display: grid;
   /* Creates two columns of equal width that take up all available space */
   grid-template-columns: 1fr 1fr;
-
+  gap: 80px;
   /* Optional: Defines the height of implicitly created rows (adjust as needed) */
   grid-auto-rows: auto; 
 }
@@ -112,6 +112,9 @@ img{
     visibility: hidden;
     padding: 20px;
     width: 500px;
+
+    max-height: 400px;
+    overflow-y: auto;
 }
 
 .open-popup{
