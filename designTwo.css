@@ -4,8 +4,19 @@
 
 .title {
     font-size: 60px;
-    color: e9d3d0
+    color: #e9d3d0;
 }
 
+#description {
+    font-size: 20px;
+    color: #e9d3d0;
+}
 
-
+.button{
+    background-color: #e9d3d0;
+    color: #f6f2ff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
