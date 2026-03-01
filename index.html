@@ -29,8 +29,17 @@
         <body>
             <div class = "container">
                 <form>
-                    <input type = "text" placeholder = "Enter a drink!">
+                    <input type = "text" placeholder = "Enter a drink!" onchange = "openpage()">
                     <button type = "submit"> Search </button>
+                    <script>
+                        function openpage(){
+                            var input = document.querySelector("input").value;
+                            if(input == "matcha"){
+                                window.open("matcha.html");
+                            }
+                        }
+                    </script>
+
                 </form>
             </div>
         </body>
