@@ -1,5 +1,24 @@
-h1{
-    color: #333;
-    font-family: Arial, sans-serif;
-    text-align: center;
+.header{
+    text-align:left;
+}
+
+.title {
+    font-size: 60px;
+    color: #e9d3d0;
+}
+
+#description {
+    font-size: 20px;
+    color: #e9d3d0;
+    text-align: left;
+    padding: 10px;
+}
+
+.button{
+    background-color: #e9d3d0;
+    color: #f6f2ff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
