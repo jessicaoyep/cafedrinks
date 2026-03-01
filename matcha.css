@@ -17,6 +17,7 @@ img{
     border-radius: 10px;
 }
 
+
 /* Style for the header section */
 .header{
     background-color: #8ba888;
@@ -84,6 +85,8 @@ img{
     color:#333;
 }
 
+
+/* Style for the popup recipe cards with instructions and more info*/
 .popup-body{
   display: grid;
   /* Creates two columns of equal width that take up all available space */
