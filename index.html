@@ -24,10 +24,18 @@
         </div>
      </body>
 
-     //Button
+     //Search bar 
         <body>
-            <div class = "button">
-                <button type = "button"> Click here to search recipes! </button>
+            <div class = "container">
+                <input id = "searchbar"
+                onkeyup = "search_drink()"
+                type = "text" name = "Search"
+                placeholder = "Find your drink!">
+
+                <ul id = 'list'>
+                    <li class = "drink"> Matcha </li>
+                    <li class = "drink"> Coffee </li>
+                </ul>
             </div>
-
-
+            <script src = "./script.js"></script>
+        </body>
