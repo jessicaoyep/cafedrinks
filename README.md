@@ -1,4 +1,6 @@
 # cafedrinks
+<<<<<<< HEAD
+=======
 
 to see what files you changed:
 
@@ -22,3 +24,4 @@ push your changes:
 
 git push
 
+>>>>>>> 67b9899e50343bd4fc89f7b2d8fd3618801102e8

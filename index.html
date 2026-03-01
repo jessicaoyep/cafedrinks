@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Page Title</title>
+</head>
+<body>
+    <!-- Visible content goes here -->
+=======
     <title>Cafe Recipes! </title>
      <link rel = "stylesheet" href = "designTwo.css" />
+        <link rel = "stylesheet" href = "nav.css">
+     <script src = "script.js" defer></script>
 </head>
-
+<nav>
+    <a href="index.html">Home</a>
+    <a href="matcha.html">Matcha Recipes</a>
+</nav>
 
     <!-- Visible content goes here -->
      //Title & description
@@ -27,15 +38,19 @@
      //Search bar 
         <body>
             <div class = "container">
-                <input id = "searchbar"
-                onkeyup = "search_drink()"
-                type = "text" name = "Search"
-                placeholder = "Find your drink!">
+                <form>
+                    <input type = "text" placeholder = "Enter a drink!" onchange = "openpage()">
+                    <button type = "submit"> Search </button>
+                    <script>
+                        function openpage(){
+                            var input = document.querySelector("input").value;
+                            if(input == "matcha"){
+                                window.open("matcha.html");
+                            }
+                        }
+                    </script>
 
-                <ul id = 'list'>
-                    <li class = "drink"> Matcha </li>
-                    <li class = "drink"> Coffee </li>
-                </ul>
+                </form>
             </div>
-            <script src = "./script.js"></script>
         </body>
+>>>>>>> 67b9899e50343bd4fc89f7b2d8fd3618801102e8
