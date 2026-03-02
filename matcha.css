@@ -94,6 +94,7 @@ img{
   gap: 80px;
   /* Optional: Defines the height of implicitly created rows (adjust as needed) */
   grid-auto-rows: auto; 
+  padding: 20px;
 }
 
 .popup{
